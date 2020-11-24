@@ -44,7 +44,7 @@ export default {
     return {      
       date:'',
       loaded:false,
-      message:'Loading api please wait',
+      message:'',
       data:{}
       
     }

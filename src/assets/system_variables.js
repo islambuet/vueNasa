@@ -6,7 +6,8 @@ function initial_data()
   var language=localStorage.getItem('language')? localStorage.getItem('language'):'en';
   return {   
     language:language,
-    apiKey:'4VzgsuIglUPOu5xRooYCx6aIIvYaizihhlSQTwYX',
+    apiKey:'DEMO_KEY',
+    //apiKey:'4VzgsuIglUPOu5xRooYCx6aIIvYaizihhlSQTwYX',
     user:{
       token_auth:localStorage.getItem('token_auth')? localStorage.getItem('token_auth'):'',
       token_csrf:localStorage.getItem('token_csrf')? localStorage.getItem('token_csrf'):'',
